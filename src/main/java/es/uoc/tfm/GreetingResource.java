@@ -10,8 +10,8 @@ import org.eclipse.microprofile.metrics.annotation.Counted;
 import org.eclipse.microprofile.metrics.annotation.Timed;
 
 @Path("/hello")
-@Counted(name = "performedChecks", description = "How many primality checks have been performed.")
-@Timed(name = "checksTimer", description = "A measure of how long it takes to perform the primality test.", unit = MetricUnits.MILLISECONDS)
+//@Counted(name = "performedChecks", description = "How many primality checks have been performed.")
+//@Timed(name = "checksTimer", description = "A measure of how long it takes to perform the primality test.", unit = MetricUnits.MILLISECONDS)
 public class GreetingResource {
 
     @GET
